@@ -1,0 +1,32 @@
+package Enum;
+
+public enum Mes {
+	
+	JANEIRO,
+	FEVEREIRO,
+	MARÇO,
+	ABRIL,
+	MAIO,
+	JUNHO,
+	JULHO,
+	AGOSTO,
+	SETEMBRO,
+	OUTUBRO,
+	NOVEMBRO,
+	DEZEMBRO;
+
+}
+
+******************************************
+
+package Enum;
+
+public class EnumMesesExemplo {
+
+	public static void main(String[] args) {
+
+		for (Mes mes : Mes.values()) {
+		     System.out.println(mes);
+	}
+ }
+}
