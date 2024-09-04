@@ -1,0 +1,32 @@
+package Enum;
+
+public enum Disciplinas {
+	
+	História,
+	Filosofia,
+	Sociologia,
+	LP,
+	Matemática,
+	Física,
+	EF,
+	Inglês,
+	Química,
+	Geografia,
+	Biologia,
+	Arte,
+	SENAI,
+	TA;
+
+}
+*******************************
+package Enum;
+
+public class EnumDisciplinaExemplo {
+
+	public static void main(String[] args) {
+		for (Disciplinas materia : Disciplinas.values()) {
+		     System.out.println(materia);
+	}
+	}
+
+}
