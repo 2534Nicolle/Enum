@@ -1,0 +1,26 @@
+package Enum;
+
+public enum MarcasRoupa {
+	
+	Louis_Vitton,
+	Gucci,
+	Chanel,
+	Calvin_Klain,
+	Vans,
+	Umbro,
+	Puma;
+
+}
+******************************
+package Enum;
+
+public class EnumRoupa {
+
+	public static void main(String[] args) {
+		
+		for (MarcasRoupa roupa : MarcasRoupa.values()) {
+		     System.out.println(roupa);
+	}
+	}
+
+}
