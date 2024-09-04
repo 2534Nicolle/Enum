@@ -1,0 +1,29 @@
+package Enum;
+
+public enum MarcasCarros {
+	
+	Audi,
+	Ferrari,
+	Cadillac,
+	Rover,
+	Mercedes_Benz,
+	BMW,
+	Dodge,
+	Porsche,
+	Tesla,
+	Suzuki;
+
+}
+*******************************
+
+package Enum;
+
+public class EnumCarrosExemplo {
+
+	public static void main(String[] args) {
+		for (MarcasCarros carro : MarcasCarros.values()) {
+		     System.out.println(carro);
+	}
+	}
+
+}
