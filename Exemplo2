@@ -1,0 +1,24 @@
+package Enum;
+
+public enum StatusPedido {
+	
+	ABERTO,
+	EM_ANDAMENTO,
+	ENTREGUE,
+	CANCELADO;
+}
+
+************************************
+
+package Enum;
+
+public class PrincipalPedido {
+
+	public static void main(String[] args) {
+		
+		for (StatusPedido status : StatusPedido.values()) {
+		     System.out.println(status);
+		}
+	}
+
+}
