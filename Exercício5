@@ -1,0 +1,49 @@
+package Enum;
+
+public enum Mercado {
+	
+	Chocolate,
+	Biscoito,
+	Leite,
+	Manteiga,
+	Banana,
+	Maça,
+	Pera,
+	Kiwi,
+	Cereal,
+	Macarrão,
+	Suco,
+	Molho_de_tomate,
+	Ketchup,
+	Mostarda,
+	Maionese,
+	Arroz,
+	Açúcar,
+	Café,
+	Feijão,
+	Carne,
+	Queijo,
+	Presunto,
+	Mortandela,
+	Pão,
+	Sabonete,
+	Shampoo,
+	Condicionador,
+	Detergente,
+	Sabão_em_pó,
+	Palmito,
+	Ervilha;
+	
+}
+************************************
+package Enum;
+
+public class EnumMercadosExemplo {
+
+	public static void main(String[] args) {
+		for (Mercado produtos : Mercado.values()) {
+		     System.out.println(produtos);
+	}
+	}
+
+}
